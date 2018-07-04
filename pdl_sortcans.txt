@@ -1,0 +1,7 @@
+# pseudocode
+
+if ('soft drink' in listOfLabels):
+	if ('bottle' not in listOfLabels):
+		sort item in 'can'
+	else if ('bottle' in listOfLabels):
+		sort item in 'plastic'

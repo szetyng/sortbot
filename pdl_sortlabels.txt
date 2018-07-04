@@ -1,0 +1,25 @@
+# pseudocode
+
+# Iterating through the entire list of labels
+for label in listOfLabels:
+	# Checking for contamination is the utmost priority 
+	if "food" in label:
+		add "contaminated" to listOfCategories
+		containsFood = True
+	else if "coffee" in label:
+		add "contaminated" to listOfCategories
+		containsFood = True
+	
+	else if "paper" in label:
+		add "paper" to listOfCategories
+	else if "plastic" in label:
+		add "plastic" to listOfCategories
+	else if "can" in label:
+		add "can" to listOfCategories
+
+	else if "bottle" in label:
+		add "plastic" to listOfCategories
+	else if "white" in label:
+		add "paper" to listOfCategories
+
+		
